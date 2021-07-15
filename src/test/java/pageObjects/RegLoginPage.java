@@ -278,10 +278,7 @@ public class RegLoginPage {
 	}
 
 
-
-
-	Xls_Reader reader = new Xls_Reader("C:\\Users\\Admin\\office\\info.printSultan\\src\\main\\java\\testData\\Testdata.xlsx");
-
+	Xls_Reader reader = new Xls_Reader("C:\\Users\\Ashish\\git\\info.printSultan\\src\\main\\java\\testData\\Testdata.xlsx");
 
 	String firstname = reader.getCellData("Registration", "Firstname", 2);
 	String lastname = reader.getCellData("Registration", "Lastname", 2);

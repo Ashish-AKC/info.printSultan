@@ -25,9 +25,9 @@ public class TC_002_Login extends BaseClass{
 		regLogin.emailForLogin(pro.getEmailId());
 		regLogin.passwordForLogin(pro.getPassword());
 		regLogin.loginButton();
-		takeScreenshot("HomePage");
+		//takeScreenshot("HomePage");
 		Assert.assertEquals("Print Sultan",driver.getTitle(), "Test Case failed");
-		
+		logger.info("TestCase for login Ended & Pass");
 
 	}
 
