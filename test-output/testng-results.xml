@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-28T12:49:24 IST" name="Default suite" finished-at="2021-09-28T12:49:36 IST" duration-ms="11953">
+    <groups>
+    </groups>
+    <test started-at="2021-09-28T12:49:24 IST" name="Default test" finished-at="2021-09-28T12:49:36 IST" duration-ms="11953">
+      <class name="cPSetTest.AlertPresent">
+        <test-method is-config="true" signature="setup()[pri:0, instance:cPSetTest.AlertPresent@45099dd3]" started-at="2021-09-28T12:49:24 IST" name="setup" finished-at="2021-09-28T12:49:31 IST" duration-ms="7095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="alertTest()[pri:0, instance:cPSetTest.AlertPresent@45099dd3]" started-at="2021-09-28T12:49:31 IST" name="alertTest" finished-at="2021-09-28T12:49:34 IST" duration-ms="2772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cPSetTest.AlertPresent@45099dd3]" started-at="2021-09-28T12:49:34 IST" name="tearDown" finished-at="2021-09-28T12:49:36 IST" duration-ms="2014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- cPSetTest.AlertPresent -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
