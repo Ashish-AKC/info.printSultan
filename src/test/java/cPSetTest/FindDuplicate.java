@@ -11,9 +11,10 @@ public class FindDuplicate {
 
 			String current = Character.toString(sentense.charAt(i)); //Char to string conversion using wrapper class
 			if(characters.contains(current)){ 		//Condition to check the duplicate char
-				if(!duplicates.contains(current)) {		
+			if(!duplicates.contains(current)) {		
 					duplicates = duplicates + current + ",";
 				}
+
 			}
 			characters = characters + sentense.charAt(i);			
 
