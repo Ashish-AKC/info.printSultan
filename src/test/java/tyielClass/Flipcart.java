@@ -2,6 +2,7 @@ package tyielClass;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -9,6 +10,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 public class Flipcart {
@@ -55,6 +58,13 @@ public class Flipcart {
 
 		detailProduct.click();
 		
+		/*
+		 * WebDriverWait wait = new WebDriverWait(driver,10);
+		 * 
+		 * wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(
+		 * "//div[@class='_13oc-S']//div[@data-id]")));
+		 */
+		
 		System.out.println("Product search and seleted");
 		
 		System.out.println("Page title of parent tab: "+driver.getTitle());
@@ -77,8 +87,6 @@ public class Flipcart {
 		
 		driver.quit();
 		
-			
-
 
 	}
 

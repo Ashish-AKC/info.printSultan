@@ -14,9 +14,9 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-
 
 import utilities.ReadConfig;
 
@@ -39,6 +39,11 @@ public class BaseClass {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		
+		/*
+		 * ChromeOptions option = new ChromeOptions(); 
+		 * option.addArguments("-lan-en");
+		 */
 
 
 		logger=Logger.getLogger("info.printSultan");
