@@ -78,3 +78,5 @@
 2021-07-15 22:38:59,306 - info.printSultan -INFO - User details entered from excel
 2021-07-15 22:39:02,251 - info.printSultan -INFO - Contry selected Kuwait
 2021-07-15 22:39:08,214 - info.printSultan -INFO - Test 2 Ended
+2021-08-04 19:57:25,046 - info.printSultan -INFO - TestCase for login started
+2021-08-04 19:57:51,447 - info.printSultan -INFO - TestCase for login Ended & Pass
