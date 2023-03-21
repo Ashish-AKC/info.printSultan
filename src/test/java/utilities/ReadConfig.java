@@ -28,15 +28,15 @@ public class ReadConfig {
 		return url;
 	}
 	
-	public String getEmailId() {
+	public String getDrEmailId() {
 		
-		String email = pro.getProperty("Email");
+		String email = pro.getProperty("Dr_Email");
 		return email;
 	}
 	
-	public String getPassword() {
+	public String getDrPassword() {
 		
-		String password = pro.getProperty("Password");
+		String password = pro.getProperty("Dr_Password");
 		return password;
 	}
 	

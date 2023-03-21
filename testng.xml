@@ -3,13 +3,15 @@
 
 <suite name="Smoke Testing">
 
-  <test thread-count="5" name="TestCase">
+	<test thread-count="5" name="TestCase">
+		<parameter name="browser" value="edge" />
+		
 
-    <classes>
-      	<class name="testScripts.TC_001_Registration"/>
-		<class name="testScripts.TC_002_Login"/>
-		<class name="testScripts.TC_003_SearchProduct"/>
-    </classes>
+		<classes>
+			<class name="testScript.TC_01_Login" />
+		</classes>
 
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

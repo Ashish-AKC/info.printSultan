@@ -3,7 +3,9 @@ import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
 import org.testng.annotations.Test;
-import testScripts.BaseClass;
+
+import testScript.BaseClass;
+
  
 public class KeyBoard_Robot_Events extends BaseClass{
 
